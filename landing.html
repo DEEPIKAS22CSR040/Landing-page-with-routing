@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURO TECH SOLUTIONS</title>
+<style type="text/css">
+    * {
+        padding: 0px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+   
+    header {
+        width: 100%;
+        background-color: #333;; 
+        padding: 20px;
+    }
+
+    .logo {
+        float: left; 
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav {
+        float: right; 
+    }
+
+    nav a {
+        text-decoration: none;
+        color:white; 
+        padding: 10px 20px;
+        position: relative;
+    }  
+
+    nav a:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        border-bottom: 2px solid indianred;
+        transition: 0.4s linear;
+    }
+
+    nav a:hover:before {
+        width: 90%;
+    }
+
+    .h-txt {
+        max-width: 50%;
+        padding: 0 20px; 
+       text-align: left;
+    }
+
+    .h-txt h1 {
+        font-size: 50px; 
+        letter-spacing: 2px; 
+        text-align: left;
+        color: black;
+    }
+
+    .h-txt h2 {
+        font-size: 12px;
+        letter-spacing: 2px; 
+        text-align: center;
+        color: black;
+    }
+
+    .h-txt a {
+        text-decoration: none;
+        background: indianred;
+        color: black;
+        padding: 10px 20px;
+        align-self: center;
+        letter-spacing: 5px;
+        transition: 0.4s;
+    }
+
+    .h-txt a:hover {
+        background: transparent;
+        border: 3px solid indianred;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .content img {
+        max-width: 75%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: 30px; 
+        margin-bottom: 0px;
+    }
+
+    .content p {
+        max-width: 25%; 
+        padding: 0 20px;
+        font-size: 18px; 
+        letter-spacing: 1px; 
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/auro1.png" alt="Auro Tech Logo">
+        </div>
+        <nav>
+            <a href="/">HOME</a>
+            <a href="/about">ABOUT</a>
+            <a href="/services">SERVICES</a>
+            <a href="/contact">CONTACT US</a>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="h-txt">
+            <h1>Auro Tech Solutions PVT Ltd</h1><br><br>
+           
+            <a href="learn more.html">Learn More</a>
+        </div>
+        <img src="cover-pic.svg" alt="Right Aligned Image">
+        
+    </div>
+</body>
+</html>
